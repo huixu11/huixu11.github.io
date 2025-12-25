@@ -1,0 +1,300 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hui Xu | Systems, Algorithms, and Product Builder</title>
+  <meta name="description" content="Hui Xu - systems builder, quantitative C++ developer, and LLM researcher. GitHub Pages portfolio.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="bg-shapes" aria-hidden="true"></div>
+  <div class="motif-bg" aria-hidden="true">
+    <svg class="motif-pattern" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <pattern id="motifPattern" width="720" height="980" patternUnits="userSpaceOnUse">
+          <g class="motif-icon" transform="translate(40 40)">
+            <circle class="outline" cx="25" cy="35" r="18"></circle>
+            <circle class="outline" cx="85" cy="35" r="18"></circle>
+            <path class="outline" d="M25 35 L48 8 L70 35 M48 8 L62 8"></path>
+            <path class="outline" d="M40 35 L62 35 L78 8"></path>
+            <text class="label" x="0" y="72">自行车</text>
+          </g>
+          <g class="motif-icon" transform="translate(360 150)">
+            <path class="fill-b" d="M40 10 C18 15 6 34 14 52 C22 68 46 72 62 54 C78 36 74 16 40 10 Z"></path>
+            <path class="outline" d="M38 16 L30 2"></path>
+            <text class="label" x="0" y="78">红薯叶</text>
+          </g>
+          <g class="motif-icon" transform="translate(80 260)">
+            <path class="fill-c" d="M22 10 H52 L58 58 H16 Z"></path>
+            <circle class="fill-a" cx="37" cy="36" r="8"></circle>
+            <path class="outline" d="M26 6 H48"></path>
+            <text class="label" x="0" y="80">小桔灯</text>
+          </g>
+          <g class="motif-icon" transform="translate(380 370)">
+            <path class="outline bamboo" d="M20 80 V18 M42 80 V14 M64 80 V22"></path>
+            <path class="fill-b" d="M14 18 L28 6 M36 14 L48 4 M58 22 L72 10"></path>
+            <text class="label" x="0" y="98">竹子树</text>
+          </g>
+          <g class="motif-icon" transform="translate(60 480)">
+            <path class="water" d="M10 30 C30 20 50 38 70 28 C90 18 110 36 140 25"></path>
+            <path class="water" d="M10 44 C30 34 50 52 70 42 C90 32 110 50 140 40"></path>
+            <text class="label" x="0" y="70">小溪流</text>
+          </g>
+          <g class="motif-icon" transform="translate(380 590)">
+            <path class="fill-d" d="M10 40 L90 40 L72 60 L28 60 Z"></path>
+            <path class="outline" d="M50 12 L50 40"></path>
+            <path class="outline" d="M50 12 C64 22 72 28 82 34"></path>
+            <text class="label" x="0" y="78">小竹排</text>
+          </g>
+          <g class="motif-icon" transform="translate(90 700)">
+            <path class="fill-e" d="M10 38 C10 56 110 56 110 38"></path>
+            <path class="outline" d="M10 38 L4 24 C4 12 116 12 116 24 L110 38"></path>
+            <circle class="fill-a" cx="46" cy="30" r="6"></circle>
+            <circle class="fill-a" cx="76" cy="30" r="6"></circle>
+            <text class="label" x="0" y="74">冰镇绿豆糊</text>
+          </g>
+          <g class="motif-icon" transform="translate(360 810)">
+            <rect class="fill-d" x="10" y="18" width="60" height="18" rx="4"></rect>
+            <path class="outline" d="M16 36 V70 M64 36 V70"></path>
+            <text class="label" x="0" y="88">小板凳</text>
+          </g>
+          <g class="motif-icon" transform="translate(140 900)">
+            <path class="fill-a" d="M20 48 C35 30 60 26 74 42 C88 26 112 32 124 48"></path>
+            <path class="fill-b" d="M38 52 C48 64 64 64 72 52 C80 40 60 38 50 44"></path>
+            <path class="fill-b" d="M84 52 C94 64 110 64 118 52 C126 40 106 38 96 44"></path>
+            <text class="label" x="0" y="78">青椒炒肉</text>
+          </g>
+        </pattern>
+      </defs>
+      <rect width="100%" height="100%" fill="url(#motifPattern)"></rect>
+    </svg>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <span class="avatar avatar-rings" aria-hidden="true">
+          <svg viewBox="0 0 64 64">
+            <circle class="ring ring-a" cx="24" cy="26" r="16"></circle>
+            <circle class="ring ring-b" cx="40" cy="26" r="16"></circle>
+            <circle class="ring ring-c" cx="32" cy="40" r="16"></circle>
+          </svg>
+        </span>
+        <span class="name">Hui Xu</span>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#focus">Focus</a>
+        <a href="#publications">Publications</a>
+        <a href="#art">Art</a>
+        <a href="#work">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="cta">
+        <a class="btn ghost" href="Hui_Xu___resume.pdf" download>Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero wrap" id="about">
+      <div class="hero-text">
+        <p class="eyebrow">Systems Builder and Researcher</p>
+        <h1>Bold products, reliable systems, and human-centered algorithms.</h1>
+        <p class="lead">
+          I build and ship scalable products across global teams. I have owned and operated 10+ Linux cloud servers
+          end-to-end (OCR pipelines, invoice verification services, databases, deployment). Algorithmic improvements
+          reduced manual review while improving recognition speed and accuracy.
+        </p>
+        <div class="hero-actions">
+          <a class="btn" href="Hui_Xu___resume.pdf" download>Download Resume</a>
+          <a class="btn ghost" href="https://github.com/helperfunc">GitHub</a>
+        </div>
+        <div class="pill-row" role="list">
+          <span class="pill" role="listitem">Quant Systems</span>
+          <span class="pill" role="listitem">LLM Research</span>
+          <span class="pill" role="listitem">Distributed Systems</span>
+          <span class="pill" role="listitem">Agent Security</span>
+          <span class="pill" role="listitem">Cloud Ops</span>
+        </div>
+      </div>
+      <div class="hero-media">
+        <div class="photo-frame">
+          <img src="IMG_9213.jpeg" alt="Portrait of Hui Xu">
+        </div>
+        <div class="mission">
+          <p class="mission-title">Goal</p>
+          <p>Build great products that create value for individuals and enterprises, enabling shared wins.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="impact wrap">
+      <div class="impact-card">
+        <h2>Independent Ownership at Scale</h2>
+        <p>
+          I have led full-stack operations for startups, maintaining more than 10 Linux cloud servers including OCR,
+          invoice validation, and database systems. I implemented algorithmic optimizations that reduced human QA cycles
+          while speeding up recognition with higher accuracy.
+        </p>
+      </div>
+      <div class="impact-card">
+        <h2>Cross-Border Collaboration</h2>
+        <p>
+          In multinational environments, I communicate across teams and stakeholders in the US, India, and China to
+          deliver products on schedule and with clear ownership.
+        </p>
+      </div>
+    </section>
+
+    <section class="focus wrap" id="focus">
+      <div class="section-head">
+        <h2>What I Am Building Now</h2>
+        <p>Applied systems, research, and reliable AI infrastructure.</p>
+      </div>
+      <div class="stack">
+        <article class="card wide">
+          <h3>Applied C++ in Quantitative Trading</h3>
+          <p>Building scalable algorithms, backtesting tools, and market simulators.</p>
+          <p>
+            I implement data-driven statistical arbitrage strategies and backtesting systems in C++. If I have the
+            chance, I will explore and use the CUTE DSL to optimize GPU kernels.
+          </p>
+          <ul class="metric-list">
+            <li><strong>Latency</strong> - minimize so the system adapts to market conditions.</li>
+            <li><strong>Accuracy</strong> - keep MSE low so model quality stays strong.</li>
+            <li><strong>Throughput</strong> - handle as many requests per second as possible.</li>
+          </ul>
+          <a href="https://github.com/helperfunc/hackathon">Repo</a>
+        </article>
+        <article class="card wide">
+          <h3>LLMs for Counseling, Recommendations, and Advertising</h3>
+          <p>
+            MAQuA enables assessment of multiple mental health conditions with a minimal number of adaptive questions.
+            Current language models do not model the human subconscious. I am researching how to represent it, including
+            <span class="muted">L'inconscient inculqu&eacute; &agrave; mon ordinateur (Book, French Edition)</span> and
+            <span class="muted">Lacan and subjective topology</span>.
+          </p>
+          <p class="muted">An additional NLP research project is ongoing.</p>
+          <a href="https://arxiv.org/abs/2508.07279">Paper</a>
+        </article>
+        <article class="card">
+          <h3>Agent Security</h3>
+          <p>
+            LLM-generated code often misses complex system constraints and deep optimization. When junior engineers rely
+            on it without strong systems or security knowledge, they can ship small-scale, non-scalable apps with weak
+            threat modeling and unpatched vulnerabilities. I focus on making LLM agents safe, scalable, and resilient.
+          </p>
+          <a href="https://github.com/helperfunc/agentbeats-lambda">Repo</a>
+        </article>
+        <article class="card">
+          <h3>LLMs from Scratch</h3>
+          <p>What I cannot create, I do not understand.</p>
+          <a href="https://github.com/helperfunc/assignment1-basics">Repo</a>
+        </article>
+        <article class="card">
+          <h3>LeetCode Algorithms</h3>
+          <p>
+            700+ problems solved. Preparing video walkthroughs for challenging problems to build skill in reading,
+            verifying, and improving LLM-written code for correctness, efficiency, and safety.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Distributed Systems Reading Lab</h3>
+          <p>
+            Paxos + 2PC, Raft + 2PC, PBFT + 2PC. These systems are still beyond what any LLM can reliably implement
+            end-to-end from a prompt. I build them with DistAlgo (compiled to Python) for transaction workflows, and I
+            plan to explore coroutine-based designs to reach ~1000 transactions per second per cluster. I also plan to
+            read the papers and record tutorials.
+          </p>
+          <a href="https://github.com/helperfunc/paxos-2pc">Repo</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="publications wrap" id="publications">
+      <div class="section-head">
+        <h2>Publications</h2>
+        <p>Research outputs and works in progress.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>MAQuA: Adaptive Mental Health Assessment</h3>
+          <p>Preprint on adaptive questioning for multi-condition mental health assessment.</p>
+          <a href="https://arxiv.org/abs/2508.07279">arXiv</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="art wrap" id="art">
+      <div class="section-head">
+        <h2>Art</h2>
+        <p>Paintings and sketches by me.</p>
+      </div>
+      <p class="identity">I am a lesbian; I value the Statue of Liberty's ideals of freedom, democracy, hope, and inclusion, alongside bold exploration backed by safety.</p>
+      <div class="art-grid">
+        <figure class="art-card">
+          <div class="art-pair">
+            <img src="IMG_4550.jpeg" alt="Pride march artwork by Hui Xu">
+            <img src="IMG_2426.JPEG" alt="Pride march source photo">
+          </div>
+        </figure>
+        <figure class="art-card">
+          <div class="art-pair">
+            <img src="IMG_4551.jpeg" alt="Statue of Liberty artwork by Hui Xu">
+            <img src="IMG_0621.jpeg" alt="Statue of Liberty source photo">
+          </div>
+        </figure>
+        <figure class="art-card">
+          <div class="art-pair">
+            <img src="IMG_4553.jpeg" alt="Artwork by Hui Xu">
+            <img src="IMG_0065.JPG" alt="Source photo for artwork">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <section class="work wrap" id="work">
+      <div class="section-head">
+        <h2>Selected Work</h2>
+        <p>Earlier projects that shaped my product and engineering craft.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <h3>Plant Disease Detection</h3>
+          <p>Deep learning application for leaf disease classification.</p>
+          <a href="https://gitlab.com/huix/leaf-disease-plant-village">Repo</a>
+        </article>
+        <article class="card">
+          <h3>Twitter Backend (Django)</h3>
+          <p>Full-featured backend implementation with Django.</p>
+          <a href="https://github.com/helperfunc/twitter-django">Repo</a>
+        </article>
+        <article class="card">
+          <h3>ChatGPT Web UI</h3>
+          <p>Frontend for chat-driven interfaces.</p>
+          <a href="https://github.com/helperfunc/chatgptweb">Repo</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="wrap footer-inner">
+      <div>
+        <p class="footer-title">Let's build useful, elegant systems.</p>
+        <p class="footer-sub">Based on speed, clarity, and long-term maintainability.</p>
+      </div>
+      <div class="footer-links">
+        <a href="mailto:huixucom@gmail.com">huixucom@gmail.com</a>
+        <a href="https://github.com/helperfunc">github.com/helperfunc</a>
+        <a href="Hui_Xu___resume.pdf" download>Download Resume</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
